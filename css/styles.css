@@ -378,3 +378,17 @@ p
 {
 	font-size: 15px;
 }
+
+.p-footer
+{
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+
+.footer-size
+{
+	height: 60px;
+	width: 100%;
+	background: #0B99AE;	
+}
