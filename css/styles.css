@@ -408,7 +408,7 @@ p
 {
 	font-size: 18px;
 	text-align: center;
-	padding: 10px 0px 0px 0px;
+	margin: 4px 0px 0px 0px;
 }
 
 .footer-size
@@ -416,6 +416,19 @@ p
 	height: 40px;
 	width: 100%;
 	background: #FFFFFF;	
+}
+
+.footer-icons
+{
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+.footer-icons-color
+{
+	color: #212529;
+	font-size: 38px;
+	letter-spacing: 8px;
 }
 
 /* Large desktop */
@@ -437,7 +450,7 @@ p
 		.key-text 
 	{
 		font-size: 30px;
-		padding: 360px 0px 0px 0px;
+		padding: 380px 0px 0px 0px;
 	}
 	.icons
 	{
@@ -488,6 +501,10 @@ p
 	{
 		font-size: 29px;
 	}
+	.background-about-me 
+	{
+		background-size: 100% auto;
+	}	
 	section
 	{
 		background: black;
@@ -556,10 +573,4 @@ p
 		height: 180px;
 		width: 250px;
 	}
-/*
-	.size
-	{
-		height: 2500px;
-	}
-*/
 }
