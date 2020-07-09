@@ -169,11 +169,10 @@ section .motion.w4
 
 .key-text 
 {
-  position: absolute;
-  left: 40%;
-  top: 48%;
-  font-size: 32px;
-  color: white;
+	text-align: center;
+	padding: 320px 0px 0px 0px;
+	font-size: 32px;
+	color: white;
 }
 
 .key-text1 
@@ -214,7 +213,7 @@ section .motion.w4
 	}
 	60%, 90% 
 	{
-    width: 24em;
+    width: 12em;
 	}
 }
 
@@ -226,7 +225,7 @@ section .motion.w4
 	}
 	10%, 40% 
 	{
-    width: 20em;
+    width: 12em;
 	}
 }
 
@@ -239,9 +238,8 @@ section .motion.w4
 
 .icons-location 
 {
-  position: absolute;
-  left: 45%;
-  top: 56%;
+	text-align: center;
+	margin-top: -20px;
 }
 
 .background-about-me 
@@ -263,6 +261,11 @@ section .motion.w4
   height: 240px;
   width: 240px;
   border-radius: 50%;
+}
+
+.list
+{
+	margin: 0px 0px 0px 24px;
 }
 
 h2 
@@ -352,7 +355,7 @@ p
 {
   float: left;
   height: 210px;
-  width: 400px;
+  width: 380px;
 }
 
 .projects-text 
@@ -413,4 +416,148 @@ p
 	height: 40px;
 	width: 100%;
 	background: #FFFFFF;	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) 
+{ 
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) 
+{
+		.nav > li > a 
+	{
+		font-size: 26px;
+	}
+	.title-text 
+	{
+		font-size: 82px;
+	}
+		.key-text 
+	{
+		font-size: 30px;
+		padding: 360px 0px 0px 0px;
+	}
+	.icons
+	{
+		font-size: 33px;
+	}
+	section
+	{
+		background: purple;
+	}
+		.profile-pic
+	{
+		height: 220px;
+		width: 220px;
+	}
+	.experience-rectangle 
+	{
+		max-width: 520px;
+	}
+		.projects-rectangle 
+	{
+		max-width: 960px;
+		max-height: 100%;
+	}
+	.projects-img 
+	{
+		height: 180px;
+		width: 280px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) 
+{
+	.nav > li > a 
+	{
+		font-size: 22px;
+	}
+	.title-text 
+	{
+		font-size: 78px;
+	}
+	.key-text 
+	{
+		font-size: 26px;
+		padding: 360px 0px 0px 0px;
+	}
+	.icons
+	{
+		font-size: 29px;
+	}
+	section
+	{
+		background: black;
+	}
+	.profile-pic
+	{
+		height: 210px;
+		width: 210px;
+	}
+	.experience-rectangle 
+	{
+		max-width: 360px;
+	}
+	.projects-rectangle 
+	{
+		max-width: 460px;
+		max-height: 100%;
+	}
+	.projects-img 
+	{
+		height: 180px;
+		width: 400px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+	.nav > li > a 
+	{
+		font-size: 18px;
+	}
+	.title-text 
+	{
+		font-size: 74px;
+	}
+	.key-text 
+	{
+		font-size: 22px;
+		padding: 380px 0px 0px 0px;
+	}
+	.icons
+	{
+		font-size: 25px;
+	}
+	section
+	{
+		background: red;
+	}
+	.profile-pic
+	{
+		height: 210px;
+		width: 210px;
+	}
+	.experience-rectangle 
+	{
+		max-width: 320px;
+	}
+		.projects-rectangle 
+	{
+		max-width: 300px;
+		max-height: 100%;
+	}
+	.projects-img 
+	{
+		height: 180px;
+		width: 250px;
+	}
+	.size
+	{
+		height: 2500px;
+	}
 }
