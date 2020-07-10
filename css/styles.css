@@ -451,10 +451,6 @@ p
 	{
 		font-size: 33px;
 	}
-	section
-	{
-		background: orange;
-	}
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -476,10 +472,6 @@ p
 	.icons
 	{
 		font-size: 33px;
-	}
-	section
-	{
-		background: purple;
 	}
 		.profile-pic
 	{
@@ -526,10 +518,6 @@ p
 	{
 		background-size: 100% auto;
 	}	
-	section
-	{
-		background: black;
-	}
 	.profile-pic
 	{
 		height: 210px;
@@ -570,10 +558,6 @@ p
 	.icons
 	{
 		font-size: 25px;
-	}
-	section
-	{
-		background: red;
 	}
 	.profile-pic
 	{
