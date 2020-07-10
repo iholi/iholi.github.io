@@ -431,7 +431,8 @@ p
 	letter-spacing: 8px;
 }
 
-/* Large desktop */
+/*
+ Large desktop 
 @media (min-width: 1200px) 
 { 
 	.nav > li > a 
@@ -452,6 +453,7 @@ p
 		font-size: 33px;
 	}
 }
+*/
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) 
