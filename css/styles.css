@@ -434,6 +434,27 @@ p
 /* Large desktop */
 @media (min-width: 1200px) 
 { 
+	.nav > li > a 
+	{
+		font-size: 26px;
+	}
+	.title-text 
+	{
+		font-size: 82px;
+	}
+	.key-text 
+	{
+		font-size: 30px;
+		padding: 460px 0px 0px 0px;
+	}
+	.icons
+	{
+		font-size: 33px;
+	}
+	section
+	{
+		background: orange;
+	}
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -447,10 +468,10 @@ p
 	{
 		font-size: 82px;
 	}
-		.key-text 
+	.key-text 
 	{
 		font-size: 30px;
-		padding: 380px 0px 0px 0px;
+		padding: 420px 0px 0px 0px;
 	}
 	.icons
 	{
@@ -469,7 +490,7 @@ p
 	{
 		max-width: 520px;
 	}
-		.projects-rectangle 
+	.projects-rectangle 
 	{
 		max-width: 960px;
 		max-height: 100%;
